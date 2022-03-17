@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "6673940989",
+    "project_id": "pocketdroids-go",
+    "storage_bucket": "pocketdroids-go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6673940989:android:5cb163ae6cda0fb4a65994",
+        "android_client_info": {
+          "package_name": "com.SIA.PocketDroidsGO"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6673940989-pl2dbfcvan4uq2mu8mctafuntjemvj4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABqrZgnb7uS19KG7o9NWCWBkhOJybzoIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6673940989-pl2dbfcvan4uq2mu8mctafuntjemvj4m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "6673940989-l6khti014u62n8vdah6f6ta0g55u0527.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SIA.PocketDroidsGO"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
