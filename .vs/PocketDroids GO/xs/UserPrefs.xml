@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{FC91840A-6EB9-9E85-7F36-0CC0526AB993}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/World/WorldSceneManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Models/Player/Scripts/Player.cs">
     <Files>
       <File FileName="Assets/Scenes/Capture/CaptureSceneUIManager.cs" Line="45" Column="69" />
       <File FileName="Assets/Models/Field Objects/Override Orb/OverrideOrb.cs" Line="212" Column="10" />
@@ -8,7 +8,10 @@
       <File FileName="Assets/Utilities/PocketDroidsConstants.cs" />
       <File FileName="Assets/Utilities/PocketDroidsSceneManager.cs" />
       <File FileName="Assets/Utilities/SceneTransitionManager.cs" Line="6" Column="71" />
-      <File FileName="Assets/Scenes/World/WorldSceneManager.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scenes/World/WorldSceneManager.cs" Line="29" Column="94" />
+      <File FileName="Assets/Utilities/GameManager.cs" Line="23" Column="1" />
+      <File FileName="Assets/Utilities/DroidFactory.cs" Line="37" Column="34" />
+      <File FileName="Assets/Models/Player/Scripts/Player.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,14 +37,14 @@
                   <Node name="POI XP Bonus" expanded="True" />
                 </Node>
                 <Node name="Player" expanded="True">
-                  <Node name="Scripts" expanded="True" />
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Player.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Capture" expanded="True" />
-                <Node name="World" expanded="True">
-                  <Node name="WorldSceneManager.cs" selected="True" />
-                </Node>
+                <Node name="World" expanded="True" />
               </Node>
               <Node name="Utilities" expanded="True" />
             </Node>

@@ -78,9 +78,4 @@ public class Droid : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        DontDestroyOnLoad(this);
-    }
-
 }

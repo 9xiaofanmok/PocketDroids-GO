@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
     public void AddXp(int xp)
     {
         this.xp += Mathf.Max(0, xp);
+        InitLevelData();
     }
 
     public void AddCoins(int coins)

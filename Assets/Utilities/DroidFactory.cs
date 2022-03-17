@@ -6,13 +6,13 @@ using UnityEngine.Assertions;
 public class DroidFactory : Singleton<DroidFactory>
 {
     [SerializeField] private Droid[] availableDroids;
-    [SerializeField] private Player player;
     [SerializeField] private float waitTime = 180.0f;
     [SerializeField] private int startingDroids = 5;
     [SerializeField] private float minRange = 5.0f;
     [SerializeField] private float maxRange = 50.0f;
 
     // to persist data btw scenes
+    private Player player;
     private List<Droid> liveDroids = new List<Droid>();
     private Droid selectedDroid;
 
@@ -29,11 +29,12 @@ public class DroidFactory : Singleton<DroidFactory>
     private void Awake()
     {
         Assert.IsNotNull(availableDroids);
-        Assert.IsNotNull(player);
     }
 
     void Start()
     {
+        player = GameManager.Instance.CurrentPlayer;
+        Assert.IsNotNull(player);
         for (int i = 0; i < startingDroids; i++)
         {
             InstantiateDroids();

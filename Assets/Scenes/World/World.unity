@@ -1570,23 +1570,6 @@ MonoBehaviour:
   _rotateZ: 0
   _useNegativeAngle: 0
   _useTransformLocationProvider: 0
---- !u!114 &773132968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773132964}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39c880e8f17e43849846471c290e2eb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xp: 0
-  requireXp: 100
-  levelBase: 100
-  coins: 100
-  droids: []
 --- !u!21 &852289855
 Material:
   serializedVersion: 6
@@ -1791,7 +1774,6 @@ MonoBehaviour:
   availableDroids:
   - {fileID: 114940994316399860, guid: 1a53d18f11e2d7947a9c142897b0f87f, type: 3}
   - {fileID: 114140722843414850, guid: 5dae46b53ca322a43bbc3dc414df988c, type: 3}
-  player: {fileID: 773132968}
   waitTime: 180
   startingDroids: 5
   minRange: 5
@@ -2335,7 +2317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3fcb3ca9aeb249e2b5f39b199af97f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPlayer: {fileID: 773132968}
 --- !u!4 &1427628832
 Transform:
   m_ObjectHideFlags: 0
