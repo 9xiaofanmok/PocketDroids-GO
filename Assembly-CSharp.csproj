@@ -437,6 +437,8 @@
     <Compile Include="Assets/Mapbox SDK/Mapbox/Unity/Location/LocationSmoothing/KalmanFilter.cs" />
     <Compile Include="Assets/Mapbox SDK/Mapbox/Unity/SourceLayers/ISubLayerCustomStyle.cs" />
     <Compile Include="Assets/Utilities/SceneTransitionManager.cs" />
+    <Compile Include="Assets/Models/Player/Scripts/PlayerData.cs" />
+    <Compile Include="Assets/Models/Droids/DroidData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Mapbox SDK/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll" />

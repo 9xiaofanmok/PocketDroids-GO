@@ -48,6 +48,11 @@ public class Droid : MonoBehaviour
         get { return hp; }
     }
 
+    public AudioClip CrySound
+    {
+        get { return crySound; }
+    }
+
     private void OnMouseDown()
     {
         PocketDroidsSceneManager[] managers = FindObjectsOfType<PocketDroidsSceneManager>();

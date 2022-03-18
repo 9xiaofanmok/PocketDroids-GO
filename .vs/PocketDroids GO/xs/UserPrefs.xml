@@ -1,32 +1,17 @@
 ﻿<Properties StartupConfiguration="{FC91840A-6EB9-9E85-7F36-0CC0526AB993}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Models/Player/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Utilities/DroidFactory.cs">
     <Files>
-      <File FileName="Assets/Scenes/Capture/CaptureSceneUIManager.cs" Line="45" Column="69" />
-      <File FileName="Assets/Models/Field Objects/Override Orb/OverrideOrb.cs" Line="212" Column="10" />
-      <File FileName="Assets/Models/Droids/Droid.cs" />
-      <File FileName="Assets/Scenes/Capture/CaptureSceneManager.cs" Line="77" Column="110" />
-      <File FileName="Assets/Utilities/PocketDroidsConstants.cs" />
-      <File FileName="Assets/Utilities/PocketDroidsSceneManager.cs" />
-      <File FileName="Assets/Utilities/SceneTransitionManager.cs" Line="6" Column="71" />
-      <File FileName="Assets/Scenes/World/WorldSceneManager.cs" Line="29" Column="94" />
-      <File FileName="Assets/Utilities/GameManager.cs" Line="23" Column="1" />
-      <File FileName="Assets/Utilities/DroidFactory.cs" Line="37" Column="34" />
-      <File FileName="Assets/Models/Player/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Models/Player/Scripts/Player.cs" Line="110" Column="64" />
+      <File FileName="Assets/Models/Player/Scripts/PlayerData.cs" Line="29" Column="10" />
+      <File FileName="Assets/Models/Droids/Droid.cs" Line="81" Column="67" />
+      <File FileName="Assets/Models/Droids/DroidData.cs" Line="7" Column="19" />
+      <File FileName="Assets/Utilities/DroidFactory.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PocketDroids GO" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Mapbox SDK" expanded="True">
-                <Node name="Mapbox" expanded="True">
-                  <Node name="Unity" expanded="True">
-                    <Node name="Location" expanded="True">
-                      <Node name="ExampleGpsTraces" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
               <Node name="Models" expanded="True">
                 <Node name="Coin" expanded="True">
                   <Node name="Scripts" expanded="True" />
@@ -34,19 +19,18 @@
                 <Node name="Droids" expanded="True" />
                 <Node name="Field Objects" expanded="True">
                   <Node name="Override Orb" expanded="True" />
-                  <Node name="POI XP Bonus" expanded="True" />
                 </Node>
                 <Node name="Player" expanded="True">
-                  <Node name="Scripts" expanded="True">
-                    <Node name="Player.cs" selected="True" />
-                  </Node>
+                  <Node name="Scripts" expanded="True" />
                 </Node>
               </Node>
               <Node name="Scenes" expanded="True">
                 <Node name="Capture" expanded="True" />
                 <Node name="World" expanded="True" />
               </Node>
-              <Node name="Utilities" expanded="True" />
+              <Node name="Utilities" expanded="True">
+                <Node name="DroidFactory.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -55,7 +39,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="731c1ded-1e38-4728-bc60-f4acca20d62e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="39cd080c-aea1-470d-b174-c5a875ed933a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
